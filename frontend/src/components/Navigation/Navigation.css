@@ -1,0 +1,66 @@
+.profile-dropdown {
+  position: fixed;
+  z-index: 100;
+  background: white;
+  top: 66px;
+  right: 130px;
+  border: none;
+  border-radius: 3px;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, .0975);
+  width: 230px;
+  height: 129x;
+}
+/* .profile-bubble-point {
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  position: inherit;
+  top: -8px;
+  left: 70%;
+  background-color: white;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, .0975);
+  z-index: 2;
+} */
+
+#nav-bar {
+  position: fixed;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 0;
+  margin-top: 0;
+  margin-right: 55px;
+  padding: 14px 0 14px 0;
+  border-bottom: var(--sp-border);
+  z-index: 5;
+}
+#nav-bar button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.account-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.profile-tab {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  padding-left: 10px;
+  z-index: 15;
+  height: 33.33%;
+  background: white;
+}
+.profile-tab:hover {
+  background-color: rgb(245, 245, 245);
+}
+.logout-button {
+  border-top: var(--sp-border);
+}
